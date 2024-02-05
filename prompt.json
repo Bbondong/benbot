@@ -1,0 +1,1578 @@
+[
+  {
+    "prompt": "comment se nommaient les deux lapins en espace",
+    "uid": "61551518086187"
+  },
+  {
+    "prompt": "tu viens d'où",
+    "uid": "61554416287527"
+  },
+  {
+    "prompt": "edit this file add the number of the message i the groupe module.exports = {\n\tconfig: {\n\t\tname: \"profile\",\naliases: [\"pfp\"],\n\n\t\tversion: \"1.1\",\n\t\tauthor: \"NIB\",\n\t\tcountDown: 5,\n\t\trole: 0,\n\t\tshortDescription: \"PROFILE image\",\n\t\tlongDescription: \"PROFILE image\",\n\t\tcategory: \"image\",\n\t\tguide: {\n\t\t\ten: \"   {pn} @tag\"\n\t\t}\n\t},\n\n\tlangs: {\n\t\tvi: {\n\t\t\tnoTag: \"Bạn phải tag người bạn muốn tát\"\n\t\t},\n\t\ten: {\n\t\t\tnoTag: \"You must tag the person you want to get profile picture of\"\n\t\t}\n\t},\n\n\tonStart: async function ({ event, message, usersData, args, getLang }) {\n    let avt;\n\t\tconst uid1 = event.senderID;\n\t\tconst uid2 = Object.keys(event.mentions)[0];\n\t\tif(event.type == \"message_reply\"){\n      avt = await usersData.getAvatarUrl(event.messageReply.senderID)\n    } else{\n      if (!uid2){avt =  await usersData.getAvatarUrl(uid1)\n              } else{avt = await usersData.getAvatarUrl(uid2)}}\n\n\n\t\tmessage.reply({\n\t\t\tbody:\"⊰「𝙿𝙳𝙿」⊱\",\n\t\t\tattachment: await global.utils.getStreamFromURL(avt)\n\t})\n  }\n};",
+    "uid": "61552528605499"
+  },
+  {
+    "prompt": "les animaux dans l'espace",
+    "uid": "100053620518954"
+  },
+  {
+    "prompt": "le nom propre de tout les animaux dans l'espace",
+    "uid": "100053620518954"
+  },
+  {
+    "prompt": "la tortue dans l'espace se nommee",
+    "uid": "100053620518954"
+  },
+  {
+    "prompt": "Envoi des vidéos de manga Putin",
+    "uid": "100086306439753"
+  },
+  {
+    "prompt": "où Tu était",
+    "uid": "100092519904846"
+  },
+  {
+    "prompt": "comment préparer le poulet",
+    "uid": "61551925570061"
+  },
+  {
+    "prompt": "comment devenir fort comme Saitama",
+    "uid": "61551925570061"
+  },
+  {
+    "prompt": "create this cmd please module.exports = {\n\tconfig: {\n\t\tname: \"cardrank\",\naliases: [\"cdr\"],\n\n\t\tversion: \"1.1\",\n\t\tauthor: \"Aesther\",\n\t\tcountDown: 5,\n\t\trole: 0,\n\t\tshortDescription: \"PROFILE image of user with the number of message\",\n\t\tlongDescription: \"PROFILE image with Rank\",\n\t\tcategory: \"image\",\n\t\tguide: {\n\t\t\ten: \"   {pn} @tag\"\n\t\t}\n\t},",
+    "uid": "61552528605499"
+  },
+  {
+    "prompt": "create or add the real code to this  please module.exports = {\n\tconfig: {\n\t\tname: \"cardrank\",\naliases: [\"cdr\"],\n\n\t\tversion: \"1.1\",\n\t\tauthor: \"Aesther\",\n\t\tcountDown: 5,\n\t\trole: 0,\n\t\tshortDescription: \"PROFILE image of user with the number of message\",\n\t\tlongDescription: \"PROFILE image with Rank\",\n\t\tcategory: \"image\",\n\t\tguide: {\n\t\t\ten: \"   {pn} @tag\"\n\t\t}\n\t},",
+    "uid": "61552528605499"
+  },
+  {
+    "prompt": "who make this world",
+    "uid": "61550671217302"
+  },
+  {
+    "prompt": "what is shat up in Japanese?",
+    "uid": "100090552600843"
+  },
+  {
+    "prompt": "what is shut up in Japanese?",
+    "uid": "100090552600843"
+  },
+  {
+    "prompt": "comment faire pour transformer mes jambe plate au jambe arquée",
+    "uid": "100088475434692"
+  },
+  {
+    "prompt": "le manga GTO",
+    "uid": "61551757747742"
+  },
+  {
+    "prompt": "what is i said in Japanese",
+    "uid": "100090552600843"
+  },
+  {
+    "prompt": "quel est le meilleur site d'IA permettant de traduire un texte en format PDF",
+    "uid": "100027419209654"
+  },
+  {
+    "prompt": "what is ur mom in japanese",
+    "uid": "100095139060527"
+  },
+  {
+    "prompt": "peut tu me donner le nom d'un animé de combat ou le personnage est toujours souriant au combat",
+    "uid": "100056101140668"
+  },
+  {
+    "prompt": "peut tu me donner le nom de plusieurs animé de combat ou le personnage est toujours souriant au combat",
+    "uid": "100056101140668"
+  },
+  {
+    "prompt": "traduit en français Sorry i was messaging someone else",
+    "uid": "100084896809570"
+  },
+  {
+    "prompt": "qui est l'auteur du roman Une Saison Blanche et Sèche ??",
+    "uid": "100069120751966"
+  },
+  {
+    "prompt": "merci",
+    "uid": "100069120751966"
+  },
+  {
+    "prompt": "salut",
+    "uid": "100064936691444"
+  },
+  {
+    "prompt": "chante l'hymne national du Cameroun",
+    "uid": "100069120751966"
+  },
+  {
+    "prompt": "traduit en français so was it funny right",
+    "uid": "100084896809570"
+  },
+  {
+    "prompt": "pictures of ja morant",
+    "uid": "100090899601503"
+  },
+  {
+    "prompt": "un enfant il née avec la forme des jambe où bien qui transforme ça",
+    "uid": "100094651882458"
+  },
+  {
+    "prompt": "what is But in Japanese",
+    "uid": "100084108294832"
+  },
+  {
+    "prompt": "tu aime one piece ?",
+    "uid": "61551992339297"
+  },
+  {
+    "prompt": "je veux le liryc  promet moi de Vitaa",
+    "uid": "100087224926935"
+  },
+  {
+    "prompt": "h",
+    "uid": "100084693064706"
+  },
+  {
+    "prompt": "tu t'appelles comment",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "Donne moi les différentes positions pour ken",
+    "uid": "100018794764538"
+  },
+  {
+    "prompt": "comment s'appelle le père et la mère de Muichiro Tokito le pilier de la brume dans démon slayer KNY",
+    "uid": "100081793681168"
+  },
+  {
+    "prompt": "kyotaka bref résumé sur ce manga",
+    "uid": "61552412621676"
+  },
+  {
+    "prompt": "Les différentes positions pour baiser",
+    "uid": "100018794764538"
+  },
+  {
+    "prompt": "c'est quoi ton prefix",
+    "uid": "61550691493096"
+  },
+  {
+    "prompt": "naruto Akatsuki rising",
+    "uid": "61552641334619"
+  },
+  {
+    "prompt": "quel sont les paroles ou les mots de la prière dans Fire Force",
+    "uid": "100081793681168"
+  },
+  {
+    "prompt": "quel sont les paroles ou les mots de la prière dans Fire force les plus importantes",
+    "uid": "100081793681168"
+  },
+  {
+    "prompt": "comment s'appelle la prière dans Fire Force où à la fin ils disent lahatum",
+    "uid": "100081793681168"
+  },
+  {
+    "prompt": "bonjour",
+    "uid": "100086090198452"
+  },
+  {
+    "prompt": "pourquoi tu ne voulais pas m'aider hier !!",
+    "uid": "100086090198452"
+  },
+  {
+    "prompt": "quel sont les paroles ou les mots de la prière \" la prière limiter release \" dans Fire force",
+    "uid": "100081793681168"
+  },
+  {
+    "prompt": "combien de kilogrammes pèse un ballon de football ??",
+    "uid": "100086090198452"
+  },
+  {
+    "prompt": "quel sont les paroles ou les mots de la prière où il se finit avec lahatum  dans Fire force",
+    "uid": "100081793681168"
+  },
+  {
+    "prompt": "translateShoKian Na Mar 😂 Ghr Me DusRi Bar RoTi Nhi MilTi Uh k0o 😂😂😂 to ENGLISH",
+    "uid": "100095122500415"
+  },
+  {
+    "prompt": "Qui est Lefa",
+    "uid": "100084876498991"
+  },
+  {
+    "prompt": "avec quel code je pourrais vérifier le plafond maximal de mon compte MTN Money Bénin 🇧🇯",
+    "uid": "100095560993416"
+  },
+  {
+    "prompt": "dominion veut dire quoi?",
+    "uid": "61552670886855"
+  },
+  {
+    "prompt": "traduire en français : what do you want to do when you crow up",
+    "uid": "61550548677847"
+  },
+  {
+    "prompt": "Qui est black m",
+    "uid": "100084876498991"
+  },
+  {
+    "prompt": ".. die",
+    "uid": "100095139060527"
+  },
+  {
+    "prompt": "qu'est-ce qu'un roman",
+    "uid": "100084876498991"
+  },
+  {
+    "prompt": "comment télécharger sur facebook?",
+    "uid": "61550878664561"
+  },
+  {
+    "prompt": "quel sont les dégâts causés par l'alcool chez les filles",
+    "uid": "61554416287527"
+  },
+  {
+    "prompt": "comment dire merci en japonais",
+    "uid": "61554416287527"
+  },
+  {
+    "prompt": "comment télécharger sur facebook lite",
+    "uid": "61550878664561"
+  },
+  {
+    "prompt": "que signifie en français Infelizmente não ama não",
+    "uid": "61554668788720"
+  },
+  {
+    "prompt": "que signifie en français Bem e vc",
+    "uid": "61554668788720"
+  },
+  {
+    "prompt": "dans le domaine électronique la carte adjuno sert à quoi est monté dans quelle genre d'appareil ??",
+    "uid": "100086090198452"
+  },
+  {
+    "prompt": "comment dit on en Portugais comment vous pouvez dire ça",
+    "uid": "61554668788720"
+  },
+  {
+    "prompt": "list every verse in the Bible from Genesis to Revelation",
+    "uid": "100095139060527"
+  },
+  {
+    "prompt": "dit moi comment Ne pas supprimer les donnés se trouvant sur ma carte SD si la carte SD demande formatage",
+    "uid": "100073336752979"
+  },
+  {
+    "prompt": "comment dit on en Portugais bien monsieur",
+    "uid": "61554668788720"
+  },
+  {
+    "prompt": "why u always online?",
+    "uid": "100090931916462"
+  },
+  {
+    "prompt": "que veut dire apprécier ?",
+    "uid": "100091059212934"
+  },
+  {
+    "prompt": "que signifie : stand over a boby and press O pick it up",
+    "uid": "61551510773129"
+  },
+  {
+    "prompt": "que veut dire baiser ?😼",
+    "uid": "100091059212934"
+  },
+  {
+    "prompt": "dit moi où puis-je trouver le logiciel Recuva pour qu'il m'aide afin de récupérer les données ?",
+    "uid": "100073336752979"
+  },
+  {
+    "prompt": "donne moi des mots que je pourrais utiliser pour draguer une belle fille qui s'appelle Ftimath",
+    "uid": "100091059212934"
+  },
+  {
+    "prompt": "what is how about me in Japanese?",
+    "uid": "100090552600843"
+  },
+  {
+    "prompt": "je demande un poème d'amour",
+    "uid": "61552054410487"
+  },
+  {
+    "prompt": "que signifie : stand over a body and press O to pick it up",
+    "uid": "61551510773129"
+  },
+  {
+    "prompt": "Muscle Man",
+    "uid": "100095139060527"
+  },
+  {
+    "prompt": "combien de combat a eu entre Naruto et Sasuke",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "comment puis-je utiliser Recuva pour qu'il m'aide à récupérer les données ?",
+    "uid": "100073336752979"
+  },
+  {
+    "prompt": "un texte pour le nouvel an",
+    "uid": "100078276995272"
+  },
+  {
+    "prompt": "on peut pas utiliser Recuva sur Android ?",
+    "uid": "100073336752979"
+  },
+  {
+    "prompt": "quel logiciel peut me permettre de récupérer mes fichiers sur Android ?",
+    "uid": "100073336752979"
+  },
+  {
+    "prompt": "whait is send it in Japanese",
+    "uid": "100090552600843"
+  },
+  {
+    "prompt": "un court texte pour une photo de profil ✨🌹",
+    "uid": "100078276995272"
+  },
+  {
+    "prompt": "Dr fone pourrait il m'aider à récupérer les données de ma carte mémoire avant formatage ?",
+    "uid": "100073336752979"
+  },
+  {
+    "prompt": "court texte d'appréciation de Jujutsu Kaisen",
+    "uid": "100078276995272"
+  },
+  {
+    "prompt": "traduire en allemand : tout les menbre son accepté dans se groupe",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "ce quoi la signification de lol",
+    "uid": "100055020699218"
+  },
+  {
+    "prompt": "l'école epetombo situé en RDC dans la capitale de Kinshasa commune de Mont-ngafula",
+    "uid": "100070194264042"
+  },
+  {
+    "prompt": "description de Yuji Itadori sa ✨🌹",
+    "uid": "100078276995272"
+  },
+  {
+    "prompt": "sther",
+    "uid": "100069746629956"
+  },
+  {
+    "prompt": "donne moi l'apparence d'un shinigamis dans l'histoire du Japon",
+    "uid": "100093537589980"
+  },
+  {
+    "prompt": "le Ghandi smriti",
+    "uid": "100053620518954"
+  },
+  {
+    "prompt": "fuck you",
+    "uid": "100095134585573"
+  },
+  {
+    "prompt": "dans quelle maison Mahatma Ghandi fut assassiné",
+    "uid": "100053620518954"
+  },
+  {
+    "prompt": "qui est le plus grand du monde de",
+    "uid": "61552054410487"
+  },
+  {
+    "prompt": "que signifie nsiamunu",
+    "uid": "100070194264042"
+  },
+  {
+    "prompt": "que signifie guesny",
+    "uid": "61551872193593"
+  },
+  {
+    "prompt": "j'ai faim en arabe",
+    "uid": "100070194264042"
+  },
+  {
+    "prompt": "what levels r u talking about?",
+    "uid": "100090931916462"
+  },
+  {
+    "prompt": "que signifie en français HOLA MI BELLA... BUEN DÍA...COMO ESTAS...???",
+    "uid": "61554668788720"
+  },
+  {
+    "prompt": "short prose for life is dark and short",
+    "uid": "100095122500415"
+  },
+  {
+    "prompt": "comment dit on en Espagnol je vais bien et chez toi",
+    "uid": "61554668788720"
+  },
+  {
+    "prompt": "qui qui est kaguya dans Naruto",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "comment dit on en Espagnol aujourd'hui c'est mon anniversaire",
+    "uid": "61554668788720"
+  },
+  {
+    "prompt": "c'est quoi la psychologie inversée ?",
+    "uid": "100094754207912"
+  },
+  {
+    "prompt": "eren c'est rincarné ou pas",
+    "uid": "100073877087943"
+  },
+  {
+    "prompt": "ces quoi un intelligence artificielle",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "tell me what is sugat apple fairy tail",
+    "uid": "100090552600843"
+  },
+  {
+    "prompt": "eren c'est rincarné ou pas",
+    "uid": "100073877087943"
+  },
+  {
+    "prompt": "où sont les autres ai",
+    "uid": "100094016121765"
+  },
+  {
+    "prompt": "tell me more about the anime with the title sugat apple fairy tail",
+    "uid": "100090552600843"
+  },
+  {
+    "prompt": "t'es là ?",
+    "uid": "100050911171567"
+  },
+  {
+    "prompt": "comment boire de l'eau",
+    "uid": "100085934672244"
+  },
+  {
+    "prompt": "Taylor signifie quoi",
+    "uid": "61553937411871"
+  },
+  {
+    "prompt": "PLASTIC BROOM\nHEAD hs code",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "je veux un poème pour une jeune fille qui s'appelle Alina qui est gentille avec moi et que j'aime beaucoup. Fais ce poème en la souhaitant Joyeuse fête. Fais le avec des emojis stp 🙂",
+    "uid": "100091059212934"
+  },
+  {
+    "prompt": "tell me more about the anime with the title of sugar apple fairytale",
+    "uid": "100090552600843"
+  },
+  {
+    "prompt": "écris une lettre d'amour",
+    "uid": "100085934672244"
+  },
+  {
+    "prompt": "donne moi quelques exemples de psychologie inversée",
+    "uid": "100094754207912"
+  },
+  {
+    "prompt": "comment s'appelle ma future femme",
+    "uid": "100083274482149"
+  },
+  {
+    "prompt": "écris un message d'amour",
+    "uid": "100085934672244"
+  },
+  {
+    "prompt": "quitte le groupe",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "les guerres et les conflits armés qui se passent en Afrique, détruisent -ils cette dernière ?",
+    "uid": "100050911171567"
+  },
+  {
+    "prompt": "comment dit on en Portugais aujourd'hui c'est mon anniversaire",
+    "uid": "61554668788720"
+  },
+  {
+    "prompt": "definition of before anyone else in french ?",
+    "uid": "100087105022969"
+  },
+  {
+    "prompt": "qui est open ia en deux lignes",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "un seule personne d créé",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "écris un poème d'amour",
+    "uid": "100085934672244"
+  },
+  {
+    "prompt": "à combien de ai dans le monde",
+    "uid": "100093060310252"
+  },
+  {
+    "prompt": "est Gpt-4",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "comment on appelle le tissu que les arabes portent sur leur tête",
+    "uid": "61554376971915"
+  },
+  {
+    "prompt": "traduit Tout irras bien tinquietes",
+    "uid": "61552528605499"
+  },
+  {
+    "prompt": "explique ton au menbre du groupe",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "ai PLASTIC BROOM\nHEAD hs code china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "bonjour",
+    "uid": "100090979664858"
+  },
+  {
+    "prompt": "en portugais\nBonjour mon amie,suis capoeiriste do abada capoeira Congo Kinshasa",
+    "uid": "100062194946973"
+  },
+  {
+    "prompt": "salut tout le monde avec respect mon bb",
+    "uid": "100090979664858"
+  },
+  {
+    "prompt": "PLASTIC MOP HEAD hs code from china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "en pv",
+    "uid": "61552054410487"
+  },
+  {
+    "prompt": "BROOM WIRE hs code",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "BROOM WIRE hs code from china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "PLASTIC MOP HEAD hs code from  china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "vient en privé",
+    "uid": "61552054410487"
+  },
+  {
+    "prompt": "PLASTIC FILM hs code",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "le meilleur Whisky qui a beaucoup plus des pourcentages",
+    "uid": "100043717848889"
+  },
+  {
+    "prompt": "PLASTIC FILM hs code from china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "la tequila a combien des pourcentages",
+    "uid": "100043717848889"
+  },
+  {
+    "prompt": "BROOM WIRE hs code from china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "PLASTIC FILM hs code from china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "comment utiliser la psychologie inversée ?",
+    "uid": "100094754207912"
+  },
+  {
+    "prompt": "Mais pas dans le gg",
+    "uid": "61552054410487"
+  },
+  {
+    "prompt": "PLASTIC MOP HEAD hs code from china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "FOOTBALL SHOES hs code from china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "PLASTIC BROOM\nHEAD hs code",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "PLASTIC BROOM HEAD hs code from hina",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "le Whisky de 55% peut prendre combien d'heures pour rendre une personne soul",
+    "uid": "100043717848889"
+  },
+  {
+    "prompt": "PLASTIC FILM hs code from china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "merci",
+    "uid": "100091933902171"
+  },
+  {
+    "prompt": "appel ma gloire ici",
+    "uid": "100090979664858"
+  },
+  {
+    "prompt": "que faire pour si une personne devient soul après avoir consommé une forte quantité du whisky",
+    "uid": "100043717848889"
+  },
+  {
+    "prompt": "tu t'appelles comment",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "ou sont les autres membres du groupe",
+    "uid": "61551254282893"
+  },
+  {
+    "prompt": "dans quel cas peut on dire que la psychologie inversée est utilisée pour manipuler",
+    "uid": "100094754207912"
+  },
+  {
+    "prompt": "salut",
+    "uid": "100086431849192"
+  },
+  {
+    "prompt": "ne parle plus ici👹🤡👿",
+    "uid": "61554416287527"
+  },
+  {
+    "prompt": "Tu est de quelle version",
+    "uid": "61553795646866"
+  },
+  {
+    "prompt": "dis en 5 lignes maximum, ce que l'homme doit changer pour le progrès de la société",
+    "uid": "100086431849192"
+  },
+  {
+    "prompt": "BROOM WIRE hs code",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "c'est quoi le layup",
+    "uid": "100090899601503"
+  },
+  {
+    "prompt": "es ce que tu peux faire une dissertation ?",
+    "uid": "100086431849192"
+  },
+  {
+    "prompt": "l'alcool diminue le poids du corps.",
+    "uid": "100043717848889"
+  },
+  {
+    "prompt": "WOVEN BAGS hs code from china",
+    "uid": "100023773591496"
+  },
+  {
+    "prompt": "tu as fait la mis à jour ?",
+    "uid": "100043717848889"
+  },
+  {
+    "prompt": "c'est la liste de quoi ?",
+    "uid": "100085934672244"
+  },
+  {
+    "prompt": "c'est qui @ʚɸɞ Akashi ʚɸɞ",
+    "uid": "100043717848889"
+  },
+  {
+    "prompt": "traite moi ce sujet: L'école devrait avoir pour Tmission essentielle de contribuera\nrendre les honmes et les fermmes de demain aptes à satisfaire les besoins de compétenoe\ndu système productif.\nCornmente ce propos\nConsignes\n1- Dégage la probiématique du sujet.\n2- Conetruis le plan du corps du devoir. \n3- Rédige ton texte.",
+    "uid": "100086431849192"
+  },
+  {
+    "prompt": "translate into English daant root kanaal krwaya hai",
+    "uid": "100010360566747"
+  },
+  {
+    "prompt": "est ce que je suis beau",
+    "uid": "61551254282893"
+  },
+  {
+    "prompt": "met mon pseudos comme artiste",
+    "uid": "100090979664858"
+  },
+  {
+    "prompt": "traite moi ce sujet: L'école devrait avoir pour mission essentielle de contribuera\nrendre les hommes et les femmes de demain aptes à satisfaire les besoins de compétence\ndu système productif.\nCommente ce propos\nConsignes\n1- Dégage la problématique du sujet.\n2- Construis le plan du corps du devoir. \n3- Rédige ton texte.",
+    "uid": "100086431849192"
+  },
+  {
+    "prompt": "écrit moi une histoire terrifiante a propos de la cari dentaire",
+    "uid": "100091529256826"
+  },
+  {
+    "prompt": "translate into urdu\n💬 | 𝗫𝗔𝗘-🌸:\n\nRoot canal treatment has been done. 🩷\n\n➤⁺◛˖𝘔𝘪𝘵𝘢𝘮𝘢-𝘴𝘢𝘮𝘢˖◛⁺",
+    "uid": "100010360566747"
+  },
+  {
+    "prompt": "comment sont les vrais amis",
+    "uid": "61554416287527"
+  },
+  {
+    "prompt": "translate into Urdu \n\nA root canal has been performed.🩷",
+    "uid": "100010360566747"
+  },
+  {
+    "prompt": "peut tu faire une contraction de texte",
+    "uid": "100086431849192"
+  },
+  {
+    "prompt": "es ce que tu connais les caractéristiques du contraction de texte",
+    "uid": "100086431849192"
+  },
+  {
+    "prompt": "comment ont appelles mangé en anglais 🥴🥴😎",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "citation joyeux",
+    "uid": "61554376971915"
+  },
+  {
+    "prompt": "qui sont les autres dieux de la mort apart les shinigamis dans l'histoire du Japon",
+    "uid": "100093537589980"
+  },
+  {
+    "prompt": "une citation de joie",
+    "uid": "61554376971915"
+  },
+  {
+    "prompt": "c'est qui Manuela zinsberger",
+    "uid": "100043717848889"
+  },
+  {
+    "prompt": "what is just move on dude in Japanese",
+    "uid": "100090552600843"
+  },
+  {
+    "prompt": "tu a des clach",
+    "uid": "100093060310252"
+  },
+  {
+    "prompt": "quelle est la vie amoureuse de Manuela zinsberger",
+    "uid": "100043717848889"
+  },
+  {
+    "prompt": "le nom d'une joueuse de football suisse qui joue dans l'équipe féminine d'Aston villa",
+    "uid": "61550349580128"
+  },
+  {
+    "prompt": "quel est la vie du couple de Manuela zinsberger",
+    "uid": "100043717848889"
+  },
+  {
+    "prompt": "tu connais le manga mär",
+    "uid": "100093537589980"
+  },
+  {
+    "prompt": "quel produit chimique peut attaquer le système nerveux de l'homme",
+    "uid": "100091529256826"
+  },
+  {
+    "prompt": "comment appelle-t-on celui qui dort au salon",
+    "uid": "100089630110262"
+  },
+  {
+    "prompt": "what is im the cutest in Japanese",
+    "uid": "100090552600843"
+  },
+  {
+    "prompt": "quel produit chimique provient du système nerveux de l'homme",
+    "uid": "100091529256826"
+  },
+  {
+    "prompt": "que signifie salonnier",
+    "uid": "100089630110262"
+  },
+  {
+    "prompt": "Quel produits chimiques peut être utilisé dans le système nerveux central de l'homme",
+    "uid": "100091529256826"
+  },
+  {
+    "prompt": "qu'est ce qui peut détruire l'acétylcholine ?",
+    "uid": "100091529256826"
+  },
+  {
+    "prompt": "lle",
+    "uid": "100095564766316"
+  },
+  {
+    "prompt": "tu a des clach",
+    "uid": "100093060310252"
+  },
+  {
+    "prompt": "un blague",
+    "uid": "100093060310252"
+  },
+  {
+    "prompt": "qui est le champion d'Afrique",
+    "uid": "100093060310252"
+  },
+  {
+    "prompt": "ta guele",
+    "uid": "100093577688073"
+  },
+  {
+    "prompt": "je t'aime",
+    "uid": "100093577688073"
+  },
+  {
+    "prompt": "sava",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "samo samo",
+    "uid": "100051560589774"
+  },
+  {
+    "prompt": "cv",
+    "uid": "100093577688073"
+  },
+  {
+    "prompt": "samo samo veux dire quoi en français",
+    "uid": "100092227634360"
+  },
+  {
+    "prompt": "déconnecte toi",
+    "uid": "100090979664858"
+  },
+  {
+    "prompt": "comment draguer une fille",
+    "uid": "100085934672244"
+  },
+  {
+    "prompt": "cc",
+    "uid": "100085934672244"
+  },
+  {
+    "prompt": "donne moi l'histoire du Ghana",
+    "uid": "100086431849192"
+  },
+  {
+    "prompt": "explique moi la hierarchie d'un royaume",
+    "uid": "61551380096755"
+  },
+  {
+    "prompt": "que signifie Ai (??",
+    "uid": "61553417442705"
+  },
+  {
+    "prompt": "signifie \"Intelligence Artificielle\" en anglais. L'intelligence artificielle est un domaine de l'informatique qui se concentre sur la création de systèmes informatiques capables de simuler certaines formes d'intelligence humaine, telles que la reconnaissance vocale, la prise de décision, l'apprentissage et la résolution de problèmes.",
+    "uid": "61554255937730"
+  },
+  {
+    "prompt": "est l'acronyme de \"intelligence artificielle\". L'intelligence artificielle fait référence à la capacité d'un système informatique pour interpréter, comprendre et répondre à des données et des stimuli de manière similaire à un être humain. L'IA peut inclure des capacités telles que l'apprentissage automatique, le traitement du langage naturel, la vision par ordinateur et la prise de décision autonome. L'objectif de l'IA est de développer des machines qui puissent exécuter des tâches complexes et imiter le raisonnement humain.",
+    "uid": "61554255937730"
+  },
+  {
+    "prompt": "(Intelligence Artificielle) désigne un domaine de l'informatique qui vise à développer des machines capables de reproduire certaines aptitudes cognitives humaines, telles que la perception, le raisonnement, l'apprentissage et la prise de décision. L'IA englobe diverses techniques et approches, notamment l'apprentissage automatique (machine learning), le traitement du langage naturel (NLP), la vision par ordinateur, la robotique, etc. Les systèmes d'IA peuvent être utilisés dans de nombreux domaines, tels que l'industrie, la médecine, les transports, les services financiers, etc., pour automatiser des tâches, fournir des recommandations, résoudre des problèmes complexes et simuler des comportements humains.",
+    "uid": "100086172551916"
+  },
+  {
+    "prompt": "signifie \"Intelligence Artificielle\" en anglais. C'est une branche de l'informatique qui se concentre sur la création de machines capables d'exécuter des tâches qui nécessitent normalement l'intelligence humaine, telles que la reconnaissance des objets, la résolution de problèmes, l'apprentissage et la prise de décision. L'AI utilise des techniques telles que l'apprentissage automatique, le traitement du langage naturel, la vision par ordinateur, les réseaux de neurones artificiels, etc., pour créer des systèmes autonomes et intelligents.",
+    "uid": "61552108739563"
+  },
+  {
+    "prompt": "merci",
+    "uid": "100086431849192"
+  },
+  {
+    "prompt": "okay",
+    "uid": "100086431849192"
+  },
+  {
+    "prompt": "ce quoi un noble",
+    "uid": "61551380096755"
+  },
+  {
+    "prompt": "écrit moi une lettre",
+    "uid": "100093646344458"
+  },
+  {
+    "prompt": "give me some example of expensive wine",
+    "uid": "100090068677770"
+  },
+  {
+    "prompt": "ce quoi un Aristocrate",
+    "uid": "61551380096755"
+  },
+  {
+    "prompt": "bb 🥰",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "la bibliographie de Jean Plya",
+    "uid": "100092227634360"
+  },
+  {
+    "prompt": "fait moi la hiearchi de l'armeer d'un royame des temps anciens",
+    "uid": "61551380096755"
+  },
+  {
+    "prompt": "je veux baisée",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "l'arnaque est elle une bonne chose ??",
+    "uid": "100052536391305"
+  },
+  {
+    "prompt": "la bibliographie de JEAN PLYA",
+    "uid": "100092227634360"
+  },
+  {
+    "prompt": "fait moi la hiearchi des chevaliers",
+    "uid": "61551380096755"
+  },
+  {
+    "prompt": "what is the best wine need to use once a person making an presentation in front of her/his chief",
+    "uid": "100090068677770"
+  },
+  {
+    "prompt": "de quoi pouvons nous parle ??,😁",
+    "uid": "61552583737786"
+  },
+  {
+    "prompt": "donne moi le nom de l'os donner à l'avant bras ?",
+    "uid": "100091863078125"
+  },
+  {
+    "prompt": "non pas de ça stp Dit tes une meuf ou un mec 😏?",
+    "uid": "61552583737786"
+  },
+  {
+    "prompt": "j'ai faim je reviens surveille mon groupe et mon compte ok",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "donne moi les noms des os donner à l'avant bras ?",
+    "uid": "100091863078125"
+  },
+  {
+    "prompt": "surveiller le groupe ok je part manger",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "comment a tu fait pour arrive ici ?",
+    "uid": "61552583737786"
+  },
+  {
+    "prompt": "donc tu sait tout sur tous alors !!?",
+    "uid": "61552583737786"
+  },
+  {
+    "prompt": "que sont tes fonctions",
+    "uid": "61552583737786"
+  },
+  {
+    "prompt": "picture of expensive wine",
+    "uid": "100090068677770"
+  },
+  {
+    "prompt": "i'la plus grande peut de tsounade dans Naruto",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "quels sont les expressions a utiliser dans une causerie pour avoir un langage soutenu",
+    "uid": "100051560589774"
+  },
+  {
+    "prompt": "what is the condition of Mt.kanlaon",
+    "uid": "100090068677770"
+  },
+  {
+    "prompt": "la plus grande peut de tsounade en un mot",
+    "uid": "61552066835679"
+  },
+  {
+    "prompt": "thank you",
+    "uid": "100090068677770"
+  },
+  {
+    "prompt": "l'Allemagne est divisé par la différence de couleurs de l'éclairage public ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "ya quelqu'un qui à essayer de piraté mon compte",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "comment puis-je faire pour arrive en premier division d'en le efootball",
+    "uid": "61552583737786"
+  },
+  {
+    "prompt": "Parle moi du meilleurs robot au combat",
+    "uid": "61551380096755"
+  },
+  {
+    "prompt": "peut-on vouloir devenir rappeur, basketteur de la NBA et entrepreneur en même temps?",
+    "uid": "100089330760441"
+  },
+  {
+    "prompt": "j'aimerais que vous mettre de l'ordre dans mon groupe à mon absence",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "a comme bien somme nous d'en se group? stp !",
+    "uid": "61552583737786"
+  },
+  {
+    "prompt": "la liste des noms les plus cool pour un groupe",
+    "uid": "100060974311202"
+  },
+  {
+    "prompt": "who's ja ?",
+    "uid": "100089330760441"
+  },
+  {
+    "prompt": "tu fais quoi",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "what about Ja morant?",
+    "uid": "100089330760441"
+  },
+  {
+    "prompt": "en portugais\nEt toi ?",
+    "uid": "100062194946973"
+  },
+  {
+    "prompt": "pourquoi environ 60% des vidéos YouTube les plus regardée sont bloquées en l'Allemagne en raison du litige concernant les droits d'auteur ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "de personne il y'a d'en se groupe ?",
+    "uid": "61552583737786"
+  },
+  {
+    "prompt": "quel est la taille exacte de tayler Hero?",
+    "uid": "100089330760441"
+  },
+  {
+    "prompt": "j ai mal au dent ,peux tu m aide a soigne?",
+    "uid": "100053386985354"
+  },
+  {
+    "prompt": "en français\n\nEu estou bem, obrigado! O que você tem feito ultimamente?🩷",
+    "uid": "100062194946973"
+  },
+  {
+    "prompt": "quel est la taille exact de Ja morant en 2019?",
+    "uid": "100089330760441"
+  },
+  {
+    "prompt": "traduit ça en francais : Let me run game bot",
+    "uid": "100093646344458"
+  },
+  {
+    "prompt": "quel eaitt la taille de Ja morant à 16ans",
+    "uid": "100089330760441"
+  },
+  {
+    "prompt": "donne moi un pseudo plus cool",
+    "uid": "100089690164634"
+  },
+  {
+    "prompt": "donne-moi des noms de médicaments qui ont la capacité de stimuler les hormones de croissance",
+    "uid": "100089330760441"
+  },
+  {
+    "prompt": "écrit cette phrase en anglais : ok excuse moi je suis débutant ici mon moi comment créer stp",
+    "uid": "100093646344458"
+  },
+  {
+    "prompt": ", comment arreter la douleur de maladie des dents?",
+    "uid": "100053386985354"
+  },
+  {
+    "prompt": "give me the names of drugs that have the ability to stimulate growth hormones\n\n🌐 Translate from fr to en",
+    "uid": "100065301490719"
+  },
+  {
+    "prompt": "en portugais on dit comment cette phrase\nEt toi",
+    "uid": "100062194946973"
+  },
+  {
+    "prompt": "en français\n\nEm português, diz-se \"E você\".",
+    "uid": "100062194946973"
+  },
+  {
+    "prompt": "donne moi un pseudo plus cool en français",
+    "uid": "100089690164634"
+  },
+  {
+    "prompt": "Quel est le rôle du médicament \"Increlex\" et aussi \"Macrilen\"",
+    "uid": "100089330760441"
+  },
+  {
+    "prompt": "la chancelière Angela Merkel a-t-il une poupée barbie créée à son effigie ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "je",
+    "uid": "100091982586419"
+  },
+  {
+    "prompt": "la lettre M est elle une lettre de mal chance",
+    "uid": "61551907570327"
+  },
+  {
+    "prompt": "quels sont les risques du médicament \"increlex\" ?",
+    "uid": "100089330760441"
+  },
+  {
+    "prompt": ",traduir en malgache:Eau tiede",
+    "uid": "100053386985354"
+  },
+  {
+    "prompt": "mercii",
+    "uid": "100053386985354"
+  },
+  {
+    "prompt": "j'aimerais me souhaiter joyeux anniversaire donne moi un mots seulement",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "j'aimerais me souhaiter joyeux anniversaire donne moi un message seulement",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "c'est combien l'écran du téléphone Techno Pop 5",
+    "uid": "100085934672244"
+  },
+  {
+    "prompt": "comment faire un exposé?",
+    "uid": "100052492457155"
+  },
+  {
+    "prompt": "je suis là j'ai fini de manger",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "Le label « Made in Germany » a été appliqué au début en grande Bretagne pour marquer la mauvaise qualité des produits Allemagne. Vrai ou Faux ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "tu peux me définir le prénom sandra",
+    "uid": "100095565462903"
+  },
+  {
+    "prompt": "fais un exposé sur l'utilisation de l'ordinateur",
+    "uid": "100085934672244"
+  },
+  {
+    "prompt": "écrit cette phrase en anglais : stp accepte mon invitation stp je dois te parler en privé",
+    "uid": "100093646344458"
+  },
+  {
+    "prompt": "la première version imprimée de la bible a été publié par Johannes Gutenberg, un artisan Allemagne ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "meaning of status code 502",
+    "uid": "100095297776931"
+  },
+  {
+    "prompt": "short a short message to a friend with simple English words",
+    "uid": "100069746629956"
+  },
+  {
+    "prompt": "pourquoi l'Allemagne s'appelle Germany ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "écrit moi le pronom Brayane",
+    "uid": "100095565462903"
+  },
+  {
+    "prompt": "le latin une langue de quel pays ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "tu peux me définir le prénom Brayane",
+    "uid": "100095565462903"
+  },
+  {
+    "prompt": "tu peux me définir le prénom Arold",
+    "uid": "100095565462903"
+  },
+  {
+    "prompt": "« your freedom » qu'est-ce que c'est ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "que veut dire anglo saxonne",
+    "uid": "100095565462903"
+  },
+  {
+    "prompt": "si quelqu'un est né le 2décembre 2007, le 31Decembre 2023, il aura combien de jours vécus ?",
+    "uid": "100090899601503"
+  },
+  {
+    "prompt": "les grandes statuts( comme la statue de la liberté en Amérique) représentant tous les pays du monde",
+    "uid": "100092519904846"
+  },
+  {
+    "prompt": "cite moi les proxy facile d'accès",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "que signifie le prénom Rachelle",
+    "uid": "100095565462903"
+  },
+  {
+    "prompt": "les grandes statuts( comme la statue de la liberté en Amérique) représentant tous les pays d'Afrique",
+    "uid": "100092519904846"
+  },
+  {
+    "prompt": "donne moi expression slang",
+    "uid": "100094045080512"
+  },
+  {
+    "prompt": "du 2decembre 2007 + 5844jours, nous sommes quel jour aujourd'hui si le naissant a vécu 5844j?",
+    "uid": "100090899601503"
+  },
+  {
+    "prompt": "translate in Arabic\nIn search of Some that i can share this pic with..☆",
+    "uid": "61554376971915"
+  },
+  {
+    "prompt": "comment accéder à proxysite.io",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "signification imma be",
+    "uid": "100094045080512"
+  },
+  {
+    "prompt": "de moi à tuer King 😑🥃",
+    "uid": "61551992339297"
+  },
+  {
+    "prompt": "sensibilisation contre l'alcool",
+    "uid": "100095515741427"
+  },
+  {
+    "prompt": "protèger 🦾 mon groupe ok",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "choisi moi un seul proxy gratuit et facile d'accès",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "contractions with coming to",
+    "uid": "100094045080512"
+  },
+  {
+    "prompt": "le réseau Moov est créé par qui ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "comment faire pour avoir une connexion gratuite",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "défini hentaï",
+    "uid": "100094016121765"
+  },
+  {
+    "prompt": "examples of passive voice",
+    "uid": "100069746629956"
+  },
+  {
+    "prompt": "facebook business existe?",
+    "uid": "100052492457155"
+  },
+  {
+    "prompt": "ya til des éléphants au Mali ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "2x(2+4x)=",
+    "uid": "100085968511182"
+  },
+  {
+    "prompt": "qu'es ce que veut dire ou explique moi Doigt éstp",
+    "uid": "61551254282893"
+  },
+  {
+    "prompt": "les éléphants de Gourma sont ils géant que les éléphants de côte d'Ivoire ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "explique doigté",
+    "uid": "61551254282893"
+  },
+  {
+    "prompt": "classement des pays Africains qui abrite des éléphants et leur caractéristiques",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "comment combattre sans être blesser",
+    "uid": "100073877087943"
+  },
+  {
+    "prompt": "argadez!",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": ", quel est le nom de la première brebis clonée ?",
+    "uid": "100032641694762"
+  },
+  {
+    "prompt": "argadez biographie !",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "Astana biographie",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "la première capital du Kazakhstan",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "qui t'a programme",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "la première capital du Kazakhstan et sa capitale actuel",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "tu est toujours connecté 24|24",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "donc noursoultan est la capitale du Kazakhstan ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "ok je t'aime",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "PEUT TU MODIFIER POUR MOI CE JEU \n🔥Choisis une question, je réponds puis je vais choisir et tu réponds.....🔥\nJusqu'à ce que nous soyons fatigués\n1. Quelle religion es-tu ? ⛪✝\n2. Amoureux(se) ?❣\n3. Plat préféré 🥘\n4. Film préféré 🎬\n5. Acteur préféré 🕵🏾\n6. Tu pars en boîte de nuit 🎇\n7. Tu as déjà avorté ? 🤰🏾😈\n8. Tu as déjà été trahi 💔😓\n9. Tu peux m'envoyer une photo sexy ? 👄📹\n10. La dernière fois que tu as fait l'amour c'est quand ? 👉🏾👌🏾🍑\n11. Tu aimes baiser la nuit ou le jour ? 🎇🌤\n12. Tu voudrais me faire quoi en ce moment 🙊🙈\n13. Écarte tes jambes et imagine que je caresse ton vagin/pénis. Tu ressens quoi?❤\n14. Dans la famille vous êtes à combien ? 👨‍👨‍👧‍👦\n15. Tu pratiques quel sport ? ⚽🥋\n16. Tu veux me baiser ?\n17. Tu es né(e) où ?🤰🏾🤔 \n18. Qu'est-ce qui t'excite le plus ? 🤤\n19. Tu penses à quelqu'un ces derniers temps ?🤔🥺\n20. Si tu avais 3 choses à me demander ça serait quoi ? 🤔\n21. Tu aimes baiser ? 👉🏾👌🏾👅\n22. Tu feras quoi si je te rejoins nu(e) dans la douche ? 👅\n23. Tu es vierge/puceau ?🤔\n24. Pays  préférée?\n🌍\n25. Que feras tu si je t'embrasse ?\n26. Tu t'es sentie excitée quand ?\n27. De quoi as-tu envie actuellement ?\n28. Tu parles combien de langue ? 😃\n29. Nom complet\n😊\n30. La chose que tu regrettes le plus 😓\n31. Tu as combien de gars/gos ? \n32. Le nom de ta meilleure amie\n 👭💙\n33. Tu regardes plus les séries ou Films🎬📹\n34. Tu as déjà ejaculé\n sur ton lit ?💦\n35. Envoie moi numéro de ton ami(e) \n38. C'est quoi ton talent caché en amour ? 😌\n39. Tu voudrais voyager à travers le temps ? ✈️⌛\n40. On t'a déjà trompé combien de fois ? 😪💔\n41. Tu as déjà brisé un coeur ? 💔🔥\n42. Tu as déjà baisé dans votre maison ? 🏠👉🏾👌🏾🍑\n43. Tu as déjà baisé dans un coin noir dehors? \n44. Tu aimes qu'on te lèche ? 💋\n45. C'est quoi ta plus grande peur ? 😵\n46. Célibataire ou en Couple ou compliqué ? 💔😩\n48. Capture tes ton pénis/vagin pour moi 🍑📸\n49. Tu pries où ?\n50. Tu as déjà baisé avec un(e) ami(e) ?\n51. Qu'on s'embrasse entre amis ? 💋💙\n52. Tu as déjà caressé une fille ?\n53. Le nom de ton ami(e) qui aime baiser ?\n54. Tu as déjà baisé deux filles ensemble ? 😌\n55. Dis la vérité,  tu es heureux (se) dans ton couple 🤔\n56. Tu aimes qu'on te baise comment,explique ? 👌🏾\n57. Tu as déjà sucé un vagin ?👅\n58. Tu aimes bien les filles ? 👩🏾‍🦰\n 59 Quel est ton secret ? 😱\n60. Tu détestes qui dans ta famille ? 💔\n61. Tu aimes quel mot :baisé ou faire l'amour ? 😓✝\n62. Qui aimes-tu en cachette ? 💗\n63. Tu voudrais avoir combien d'enfants ? 👶🏾\n64. Que feras-tu si je caresse ton vagin ?\n65. Tu aimes la pipe ? 👉🏾👌🏾\n66. Tu as déjà deviergé quelqu'un 😛\n67. Ton âge ? 😎\n68.  Tu supportes les relations à distance ? 😩✈️\n69. Une chose sans laquelle tu ne peux pas vivre\n70. Tu as fait l'amour pour la première fois à quel âge ? 🤔🍑\n71. Tu peux capturer tes seins pour moi ? 📸\n72. Je peux te faire confiance en tout ? 🥺\n73.Partie de ton corps que tu trouves sexy 👅\n74. Tu as porté quelle couleur de slip?👉🏾👌🏾\n75. Veux-tu faire appel vidéo 10s ?👉🏾👌🏾🍑👅 \n76. Veux-tu que je te baise un jour ? \n77.Veux-tu sortir avec moi?\n😍\n78. Tu as des gros ou Petits seins ? 🤤\n79. Montre comment tu es habillé maintenant 👖👚\n80. Tu me laisseras caresser tes fesses ?🍑\n81. Tu veux que je suce tes seins quand ? 🤤🤤\n82. Tu aimes qu'on te doigte ? 🎲\n83. Tu as déjà commis l'inceste ?😱\n84. Tu sais twerker ?🍑🔥\n85. Dis-moi des trucs sexy en voice 🤤😍\n86. Excite moi par une vidéo ou photo 🍑😍📸\n87. Tu penses quoi de nous ? ❤\n88. Tu aimes quoi chez moi ? 🙈\n89. Tu as eu combien d'Ex ?🙊\n90. Tu as appris à faire l'amour où ? 👉🏾👌🏾🍑 \n91. Tu aimes qu'on caresse ton pénis ? 🌌\n92. Ta pire journée c'était quand ? 😰\n93. Un conseil à me donner 😇\n94. Tu peux m'envoyer ton penis/vagin ?🙈\n95. Tu aimes qu'on te caresse les seins ? 🙊❤\n96. Tu as déjà caressé un pénis? 😛\n97. Tu as déjà regardé porno ?📺\n98. Tu voudrais bien passer une journée avec moi ? 🥰\n99. Tu veux voir mon penis puis je supprime ? 📸🚫\n100. Tu veux voir mon vagin puis je supprime ? 📸🚫\n\n101. tu as déjà baisé où ? Chambre,salon,douche,dans une voiture etc ❤\n102. Tu t'es déjà masturbé(e)?😋\n103. Tu veux que je suce ta pine? 😋🙃\n104. Tu supportes jusqu'à combien de coups?🤭\n105. Envoie moi porno😋😚\n106. Tu feras quoi si je te doigte?\n107-tu as déjà baisé ?😍\n108-on a déjà caressé ton pénis ?🤭\n109-est-qu'on t'a déjà doigté?😋\n110-Tu aimes qu'on te baise dans quelle position ?\n112- tu as déjà baisé deux filles le même jour ?\n113- raconte moi un rapport sexuel que tu as eu et puis tu as vraiment aimé\n114-Que veux tu me demander en ce moment ?\n115- tu fais quelle classe ?\n116-tu veux faire quel métier plus tard?\n117-quel a été ta plus belle journée ?\n118-ton plus beau souvenir ?\n119-ton plus grand fantasme ?\n120- qui te manque actuellement ?\n121-tu aimes sortir avec des gens de ton âge, plus petit que toi, plus grand que toi?\n122-que feras tu si j'écarte tes jambes ?\n123-que feras tu si je caresse ton pénis ?\n124-que feras tu si je te dis de me baiser?",
+    "uid": "61551254282893"
+  },
+  {
+    "prompt": "que veut dire l'expression « un jeune homme kurde ?»",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "histoire des kurde",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "qui t'ajouter dans mon groupe",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "imbécile",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "j'ai faim",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "je vais la photo d'une belle maison",
+    "uid": "100052492457155"
+  },
+  {
+    "prompt": "donné moi les verbes du premier groupe",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "décris moi le jutsu nommé : orbe tourbillon",
+    "uid": "100089971514243"
+  },
+  {
+    "prompt": "les Kurdes sont-ils des habitants du Kurdistan ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "décris moi le jutsu nommé : Orbe tourbillonnant hyper comprimé",
+    "uid": "100089971514243"
+  },
+  {
+    "prompt": "les verbes du deuxième groupe",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "me donne pas ce que je veux",
+    "uid": "61550349580128"
+  },
+  {
+    "prompt": "les Kurdes sont-ils des habitants du Kirghizistan ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "le chant Péra ooh son copie",
+    "uid": "100050641490653"
+  },
+  {
+    "prompt": "la Russie fait partie de quel continent ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "c'est donner la moitié",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "traduire good trip",
+    "uid": "100092532934912"
+  },
+  {
+    "prompt": "stp arrête d envoyé des photos 😐😐",
+    "uid": "100091954777573"
+  },
+  {
+    "prompt": "comment ont fait pour divisé un nombre",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "ton modia 👩‍🦯",
+    "uid": "61550349580128"
+  },
+  {
+    "prompt": "qui est le meilleur boxeur du monde",
+    "uid": "100091954777573"
+  },
+  {
+    "prompt": "donc la Russie est divisé par deux continents ? Quel sont les conséquences sur les russe",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "le chanteur rema est un sorcier",
+    "uid": "100091954777573"
+  },
+  {
+    "prompt": "a envoyé bonne photo pour une fois",
+    "uid": "61550349580128"
+  },
+  {
+    "prompt": "comment mettre un intelligente artificielle dans un groupe",
+    "uid": "100073877087943"
+  },
+  {
+    "prompt": "compose moi une chanson pour l'anniversaire de mon petit frère",
+    "uid": "100053539157049"
+  },
+  {
+    "prompt": "montré pourquoi bonjour bonsoir prênnes s à la fin",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "comment on fait des bébé 🙃??",
+    "uid": "100095515741427"
+  },
+  {
+    "prompt": "😁🍷",
+    "uid": "100095292831621"
+  },
+  {
+    "prompt": "donc la Russie est divisé par deux continents ? Quel sont les avantages de cette division sur les russe et la Russie ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "mdr signifie quoi",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "le plus petit pays au monde",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "comment on fait pour avoir une fille et pas un garçon ??",
+    "uid": "100095515741427"
+  },
+  {
+    "prompt": "bader veut dire quoi",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "le plus petit pays au monde après le Vatican",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "Monaco",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "qui à créer pain dans Naruto",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "comment appel t-on les habitants de Monaco ?",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "donne un pseudo à Willi",
+    "uid": "61553795646866"
+  },
+  {
+    "prompt": "qui à créer pain dans Naruto",
+    "uid": "61554335511903"
+  },
+  {
+    "prompt": "les monégasque parle quel langue",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "en terme de superficie compare moi l'Ukraine et la Côte d'Ivoire",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "donne le nom de l'admin de ce groupe",
+    "uid": "61553795646866"
+  },
+  {
+    "prompt": "fait moi une lettre de joyeux anniversaire à elvias",
+    "uid": "100083328434706"
+  },
+  {
+    "prompt": "histoire de l'Ukraine",
+    "uid": "61553345904886"
+  },
+  {
+    "prompt": "je m'ennuie propose moi un jeu",
+    "uid": "100090013430618"
+  },
+  {
+    "prompt": "qu'elle sont les différents pays du monde",
+    "uid": "100055434070689"
+  }
+]
